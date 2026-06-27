@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "rejectkit"
 version = "0.3.0"
-description = "Reject inference for credit scoring — scikit-learn-compatible methods and an honest benchmark harness."
+description = "Reject inference for credit scoring — 8 scikit-learn-compatible methods plus an honest benchmark that tells you whether it actually helps."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }

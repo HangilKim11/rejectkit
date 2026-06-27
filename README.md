@@ -2,6 +2,7 @@
 
 **Reject inference for credit scoring — scikit-learn-compatible methods, plus an honest benchmark that tells you whether reject inference actually helps on your data.**
 
+[![PyPI](https://img.shields.io/pypi/v/rejectkit)](https://pypi.org/project/rejectkit/)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![status](https://img.shields.io/badge/status-beta-orange)
@@ -41,9 +42,16 @@ These methods are standard in the credit-risk world, yet the Python tooling is m
 ## Install
 
 ```bash
-pip install -e .              # core: numpy, pandas, scikit-learn
-pip install -e ".[plot]"      # + matplotlib plotting helpers
-pip install -e ".[polars]"    # + polars input support
+pip install rejectkit              # core: numpy, pandas, scikit-learn
+pip install "rejectkit[plot]"      # + matplotlib plotting helpers
+pip install "rejectkit[polars]"    # + polars input support
+```
+
+Or from source (for development):
+
+```bash
+git clone https://github.com/HangilKim11/rejectkit.git
+cd rejectkit && pip install -e ".[dev]"
 ```
 
 ## Quickstart
