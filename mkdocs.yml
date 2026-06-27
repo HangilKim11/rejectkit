@@ -1,0 +1,21 @@
+site_name: rejectkit
+site_description: Reject inference for credit scoring — scikit-learn-compatible methods plus an honest benchmark.
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+  features:
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Explainer (KO/EN/JA): explainer.md
+  - Methods: methods.md
+  - Benchmark: benchmark.md
+  - Diagnostics & plotting: diagnostics.md
+  - API reference: api.md
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - tables
